@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS Transitions</h1>
+    <div class="demoRow"></div>
+    <div class="box abrupt">I will change abruptly on hover </div>
+    <div class="box smooth">I will change smoothly on hover </div>
+
+<!--pseudo class-->
+<hr />
+<h2>pseudo class practice</h2>
+<div class="wobblecontrol">
+
+    <input type="checkbox" id="wobbleToggle"/>
+    <label for="wobbleToggle">enable wobble animation</label>
+    
+    <button class="btn wobblebtn">click me</button>
+</div>
+
+
+<div class="tracks">
+
+  <div class="track">
+    <div class="tracktitle">linear</div>
+    <div class="bars timing-linear" data-count="24"></div>
+  </div>
+
+  <div class="track">
+    <div class="tracktitle">ease-in</div>
+    <div class="bars timing-ease-in" data-count="24"></div>
+  </div>
+
+  <div class="track">
+    <div class="tracktitle">ease-out</div>
+    <div class="bars timing-ease-out" data-count="24"></div>
+  </div>
+
+  <div class="track">
+    <div class="tracktitle">ease-in-out</div>
+    <div class="bars timing-ease-in-out" data-count="24"></div>
+  </div>
+
+</div>
+
+<div id ="demo-1">
+    <canvas width="100" height="100"></canvas>
+     <canvas width="100" height="100"></canvas>
+      <canvas width="100" height="100"></canvas>
+       <canvas width="100" height="100"></canvas>
+
+       <canvas id="hangman" width="200" height="200"></canvas>
+       
+        <canvas width="200" height="200"></canvas>
+         <canvas width="200" height="200"></canvas>
+          <canvas width="200" height="200"></canvas>
+           <canvas width="200" height="200"></canvas>
+
+</div>
+
+<div class="form">
+<label> pick a color :
+   <label>  <input type="radio" name="c"/>red </label>
+    <label>  <input type="radio" name="c"/>green </label>
+        <label>  <input type="radio" name="c"/>blue </label>
+</label><br></div>
+<label >
+    enter pasword :
+    <input class="pwd" name="password" minlength=8  placeholder="min 8 character"/>
+</label>
+
+    <script src="app.js"></script>
+</body>
+</html>
