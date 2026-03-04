@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    display: grid;
+    background-color: rgb(135, 135, 239);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    background-color: rgb(135, 135, 239);
+    color: white;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    animation: bounce 1s ease-in-out infinite;
+}
+
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
